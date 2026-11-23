@@ -1,0 +1,22 @@
+[crowdstrike]
+base_url = "https://api.crowdstrike.com"
+client_id = ""
+client_secret = ""
+initial_lookback_hours = 24
+post_alert_comments = true
+
+[joe_sandbox]
+cloud_api_url = "https://jbxcloud.joesecurity.org/api"
+cloud_api_key = ""
+report_base_url = "https://jbxcloud.joesecurity.org"
+enable_reverser = true
+
+[connection]
+timeout_seconds = 60
+proxy_url = ""
+
+[service]
+poll_seconds = 60
+sample_wait_minutes = 60
+max_file_mb = 200
+database_path = "/data/state.sqlite3"
