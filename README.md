@@ -1,8 +1,8 @@
 ![Joe Sandbox Cloud for CrowdStrike Falcon](docs/images/joe-sandbox-cloud-crowdstrike-falcon.png)
 
-# Joe Sandbox Cloud for CrowdStrike Falcon
+# Joe Sandbox Cloud for CrowdStrike Falcon Insight XDR
 
-Investigate files associated with endpoint alerts directly in [CrowdStrike Falcon](https://www.crowdstrike.com/en-us/platform/endpoint-security/). The connector retrieves the file from Falcon, verifies its SHA-256, and submits it to [Joe Sandbox Cloud](https://www.joesecurity.org/joe-sandbox-cloud). By default, it also requests [Joe Reverser](https://www.joesecurity.org/joe-reverser) analysis when your account includes it. Once the analyses finish, the connector posts their overall verdict, reported threat names, the highest available score, and a link to the submission on the original Falcon alert.
+Investigate files associated with endpoint alerts directly in [CrowdStrike Falcon Insight XDR](https://www.crowdstrike.com/en-us/platform/endpoint-security/falcon-insight-xdr/). The connector retrieves the file from Falcon, verifies its SHA-256, and submits it to [Joe Sandbox Cloud](https://www.joesecurity.org/joe-sandbox-cloud). By default, it also requests [Joe Reverser](https://www.joesecurity.org/joe-reverser) analysis when your account includes it. Once the analyses finish, the connector posts their overall verdict, reported threat names, the highest available score, and a link to the submission on the original Falcon alert.
 
 ## Requirements
 
